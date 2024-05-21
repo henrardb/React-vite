@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(26, 19, 70);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 12px rgb(23, 17, 63);
+  padding: 10px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.password {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.password input {
+  flex: 5;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: solid white;
+}
+
+.password button {
+  background-color: blue;
+  color: white;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  flex: 1;
+}
+
+.options {
+  border: transparent;
+}
